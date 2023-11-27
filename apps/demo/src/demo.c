@@ -20,7 +20,7 @@ int parsePlatform(const char* platformStr) {
         platform = GLFW_PLATFORM_X11;
         printf("Using x11\r\n");
     } else {
-        printf("Unknown platform: %s", platformStr);
+        printf("Unknown platform: %s\r\n", platformStr);
         printf(USAGE_STR);
         exit(EXIT_FAILURE);
     }
