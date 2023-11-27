@@ -46,6 +46,7 @@ void initGLFW(int platform) {
 }
 
 GLFWwindow* createWindow(int width, int height, const char* title) {
+    glfwDefaultWindowHints();
     glfwWindowHint(GLFW_VISIBLE, GLFW_FALSE);
     glfwWindowHint(GLFW_DECORATED, GLFW_TRUE);
 
