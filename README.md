@@ -1,6 +1,6 @@
 # glfwGetWindowFrameSize demo
 
-Simple demo to examine the behavior of glfwGetWindowFrameSize
+Simple demo to examine the behavior of `glfwGetWindowFrameSize`
 
 ## Build
 
